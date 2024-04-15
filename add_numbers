@@ -1,0 +1,2 @@
+result = add_numbers(5, 7) # type: ignore
+print(result)  # Output will be 12

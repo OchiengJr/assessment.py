@@ -1,0 +1,14 @@
+def count_vowels(text):
+    """
+    Counts the number of vowels in a string (case-insensitive).
+    """
+    vowels = 'aeiouAEIOU'
+    return sum(1 for char in text if char in vowels)
+
+# Count vowels in the string "5"
+count_5 = count_vowels("aeiouAEIOU")
+print(count_5)  # Output will be 10
+
+# Count vowels in the string "7"
+count_7 = count_vowels("aeiouAEIOUaeiouAEIOU")
+print(count_7)  # Output will be 20

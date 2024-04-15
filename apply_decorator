@@ -1,0 +1,18 @@
+def apply_decorator(func):
+    """
+    Applies a decorator to a function and calls the decorated function.
+    """
+    def decorator_func():
+        print("Decorator Applied")
+        func()
+    return decorator_func
+
+# Define a simple function to be decorated
+def simple_function():
+    print("This is a simple function.")
+
+# Apply the decorator to the simple function
+decorated_function = apply_decorator(simple_function)
+
+# Call the decorated function
+decorated_function()

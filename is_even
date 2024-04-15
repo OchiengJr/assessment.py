@@ -1,0 +1,5 @@
+# Check if 5 is even
+print(is_even(5))  # type: ignore # Output will be False
+
+# Check if 7 is even
+print(is_even(7))  # type: ignore # Output will be False

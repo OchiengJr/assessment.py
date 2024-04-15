@@ -1,0 +1,7 @@
+# Reverse the string "5"
+result_5 = reverse_string("5") # type: ignore
+print(result_5)  # Output will be "5"
+
+# Reverse the string "7"
+result_7 = reverse_string("7") # type: ignore
+print(result_7)  # Output will be "7"

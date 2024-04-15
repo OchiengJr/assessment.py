@@ -1,0 +1,8 @@
+# Define a list of tuples containing names and ages
+people = [("Alice", 25), ("Bob", 30), ("Charlie", 20)]
+
+# Sort the list of tuples by age in ascending order using the sort_by_age function
+sorted_people = sort_by_age(people) # type: ignore
+
+# Print the sorted list of tuples
+print(sorted_people)

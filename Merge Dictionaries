@@ -1,0 +1,9 @@
+# Define two dictionaries representing sales data for two different months
+sales_january = {"apple": 100, "banana": 150, "orange": 120}
+sales_february = {"apple": 120, "banana": 100, "grape": 80}
+
+# Merge the dictionaries, summing values of common keys using the merge_dicts function
+merged_sales = merge_dicts(sales_january, sales_february) # type: ignore
+
+# Print the merged dictionary
+print(merged_sales)
